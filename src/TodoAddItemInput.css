@@ -1,0 +1,32 @@
+#add-item-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+}
+
+input, button {
+  height: 40px;
+  border: none;
+}
+
+#add-item-input input {
+  background: transparent;
+  border: 1px solid #4B4B4B;
+  border-radius: 20px 0 0 20px;
+  padding-left: 20px;
+  color: #fff;
+  outline: none;
+}
+
+#add-item-input button {
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  background-color: var(--buttons);
+  color: #fff;
+}
+
+#add-item-input button img {
+  width: 3rem;
+  height: 3rem;
+}
